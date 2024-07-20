@@ -1,0 +1,125 @@
+* {
+  font-family: roboto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.1vh;
+}
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-item {
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.title-item {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.route-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+@media (max-width: 767px) {
+  .route-link {
+    margin-left: 10px;
+  }
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.profile-lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: rgb(62, 63, 69);
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 12px;
+  border-color: rgb(220, 223, 226) rgb(220, 223, 226);
+  border-width: 1px;
+  background-color: #fff;
+}
+
+.profile-lang-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.7rem;
+  color: rgb(62, 63, 69);
+  padding-left: 5px;
+}
+
+.popup-item {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.profile-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(220, 223, 226);
+  padding: 6px;
+}
+
+.popup-container {
+  width: 500px;
+}
+
+.popup-item {
+  height: 65vh;
+}

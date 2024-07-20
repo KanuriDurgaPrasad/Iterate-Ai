@@ -1,0 +1,66 @@
+* {
+  font-family: Roboto;
+}
+
+.main-container {
+  background-color: #fef5ec;
+  height: 80vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container-1-desc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.desc-icon {
+  display: flex;
+  height: 30px;
+  padding: 10px;
+}
+
+.container-1-heading {
+  width: 35vw;
+  font-size: 2.5rem;
+}
+
+.sri-mandir-text {
+  color: orange;
+}
+
+.container-1-apps {
+  display: flex;
+  align-items: center;
+}
+
+.app-download-item {
+  height: 50px;
+  padding-right: 20px;
+}
+
+.app-download-apple {
+  height: 60px;
+}
+
+.container-2-img {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
